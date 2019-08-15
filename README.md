@@ -9,7 +9,7 @@ Scripts to digitally sign files:
 
 Setup:
 ```bash
- git clone https://github.com/anthony-albertina/digital_signage.git
+ git clone https://github.com/anthony-albertina/digital-signage.git
  chmod -R +x digital-signage # Makes the scripts executable
 ```
 
@@ -19,4 +19,4 @@ In this example, Alice would digitally sign a provided file. This hashes and enc
 After sending the file and digital signature to Bob, and he would verify the signature by hashing the original file,
 and decrypting the digital signature with Alice's public key. If the hashes are the same, then we guarantee the integrity of the file. 
 
-![example](https://github.com/anthony-albertina/digital_signage/blob/master/images/digital-signage.png)
+![example](https://github.com/anthony-albertina/digital-signage/blob/master/digital-signage.png)
