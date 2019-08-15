@@ -1,6 +1,6 @@
 # Digital Signage
 
-## Digitally signing files provided a way to verify that a file sent is the same when received and guarantee who the sender is (nonrepudiation).
+### Digitally signing files provided a way to verify that a file sent is the same when received and guarantee who the sender is (nonrepudiation).
 
 Scripts to digitally sign files:
 - asymmetric_keygen.sh # Will generate a private.pem key and public.pem key in /tmp directory
@@ -13,10 +13,10 @@ Setup:
  chmod -R +x digital-signage # Makes the scripts executable
 ```
 
-## Example:
+### Example:
 
 In this example, Alice would digitally sign a provided file. This hashes and encrypts the file with her private key.
 After sending the file and digital signature to Bob, and he would verify the signature by hashing the original file,
 and decrypting the digital signature with Alice's public key. If the hashes are the same, then we guarantee the integrity of the file. 
 
-![example](https://github.com/anthony-albertina/digital_signage/blob/master/images/digital_signage.png)
+![example](https://github.com/anthony-albertina/digital_signage/blob/master/images/digital-signage.png)
